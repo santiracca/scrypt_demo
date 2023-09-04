@@ -1,6 +1,7 @@
 {
   "extends": "./tsconfig.json",
   "include": ["src/contracts/**/*.ts"],
+  "exclude": ["node_modules"],
   "compilerOptions": {
     "noEmit": true,
     "experimentalDecorators": true,
