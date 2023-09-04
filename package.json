@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "A demo sCrypt smart contract.",
   "author": "",
+  "type": "module",
   "scripts": {
     "prebuild": "npm run clean",
     "build": "tsc",
